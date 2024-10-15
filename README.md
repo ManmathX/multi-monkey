@@ -1,56 +1,59 @@
-# Multi Monkey
+Multi Monkey 🎉
 
-![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
 
-[Multi Monkey](https://multi-monkey.vercel.app/) is a typing race game built with Vite, React.js, TypeScript, Node.js Express.js & MongoDB. It utilizes TailwindCSS for styling and Shadcn for component styling, offering an engaging and dynamic user experience.
+Multi Monkey is a typing race game built with Vite, React.js, TypeScript, Node.js, Express.js, and MongoDB. It utilizes TailwindCSS for styling and Shadcn for component styling, offering an engaging and dynamic user experience.
 
-> Deployed [here](https://multi-monkey.vercel.app/)
+Deployed here 🚀
 
-## Tech Stack
+Tech Stack 🛠️
+Frontend - Vite + React, TypeScript
+Styling - TailwindCSS
+Component Library - Shadcn
+Backend - NodeJS, ExpressJS
+Database - MongoDB
+Deployment - Vercel
 
-**Frontend** - [Vite + React](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**Component Library** - [Shadcn](https://ui.shadcn.com/)  
-**Backend** - [NodeJS](https://nodejs.org/), [ExpressJS](https://expressjs.com/)  
-**Database** - [MongoDB](https://www.mongodb.com/)  
-**Deployment** - [Vercel](https://vercel.com/)
+Running Locally 🏡
+To set up the project on your local machine, follow these steps:
 
-## Running Locally
+Clone the project:
 
-Clone the project
-
-```bash
+bash
+Copy code
 git clone https://github.com/abhijivani3001/multi-monkey.git
-```
+Navigate to the project directory:
 
-Go to the project directory
-
-```bash
+bash
+Copy code
 cd multi-monkey
-```
+Remove remote origin:
 
-Remove remote origin
-
-```bash
+bash
+Copy code
 git remote remove origin
-```
+Set up environment variables:
 
-Start the server
+Create a .env file in the backend directory and add the following variables:
+makefile
+Copy code
+MONGODB_URI=your_mongodb_connection_string
+PORT=5000
+CLIENT_URL=https://multi-monkey.vercel.app
+Replace your_mongodb_connection_string with your actual MongoDB connection string. 🔑
+Start the server:
 
-```bash
+bash
+Copy code
 cd backend
 npm install
 npm run dev
-```
+Start the client:
 
-Start the client
-
-```bash
+bash
+Copy code
 cd frontend
 npm install
 npm start
-```
+Author ✍️
+@abhijivani
 
-## Author
-
-- [@abhijivani](https://abhijivani.vercel.app/)
